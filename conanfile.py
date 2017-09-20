@@ -8,23 +8,23 @@ class BoostRangeConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["range"]
-    requires =  "Boost.Array/1.65.1@bincrafters/stable", \
-                      "Boost.Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Concept_Check/1.65.1@bincrafters/stable", \
-                      "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Detail/1.65.1@bincrafters/stable", \
-                      "Boost.Functional/1.65.1@bincrafters/stable", \
-                      "Boost.Iterator/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Numeric_Conversion/1.65.1@bincrafters/stable", \
-                      "Boost.Optional/1.65.1@bincrafters/stable", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
-                      "Boost.Regex/1.65.1@bincrafters/stable", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Tuple/1.65.1@bincrafters/stable", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable",\
-                      "Boost.Utility/1.65.1@bincrafters/stable"
+    requires =  "Boost.Array/1.65.1@bincrafters/testing", \
+                      "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Concept_Check/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Detail/1.65.1@bincrafters/testing", \
+                      "Boost.Functional/1.65.1@bincrafters/testing", \
+                      "Boost.Iterator/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Numeric_Conversion/1.65.1@bincrafters/testing", \
+                      "Boost.Optional/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Regex/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Tuple/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing",\
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #array3 assert1 concept_check5 config0 core2 detail5 functional5 iterator5 mpl5 numeric~conversion6 optional5 preprocessor0 regex6 static_assert1 tuple4 type_traits3 utility5
 

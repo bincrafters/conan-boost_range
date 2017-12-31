@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostRangeConan(ConanFile):
     name = "boost_range"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-range"
+    url = "https://github.com/bincrafters/conan-boost_range"
 
     lib_short_names = ["range"]
     is_header_only = True

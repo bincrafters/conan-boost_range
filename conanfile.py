@@ -8,7 +8,8 @@ class BoostRangeConan(ConanFile):
     name = "boost_range"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_range"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["range"]
     is_header_only = True
 

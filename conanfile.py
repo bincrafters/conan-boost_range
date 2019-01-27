@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostRangeConan(base.BoostBaseConan):
     name = "boost_range"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_range"
     lib_short_names = ["range"]
     header_only_libs = ["range"]
